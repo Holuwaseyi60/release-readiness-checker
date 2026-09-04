@@ -9,4 +9,3 @@ Run: python3 checker.py 1.0.0 staging
 Keep main releasable. Do feature work on shortlive branches.
 ## Contribution
 Open an issue, use a feature branch, add tests, and open a Pull Request.
-BUG: staging is always ready
