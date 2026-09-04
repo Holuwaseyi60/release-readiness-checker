@@ -3,7 +3,7 @@ ENVS = ["dev", "staging", "prod"]
 def check(version, env):
     if not version or version.count(".") != 2:
         return "NOT READY: invalid version"
-    if env not in ENVS:
+    if env.lower() not in ENVS:
         return "NOT READY: invalid environment"
     return "READY: " + version + " on " + env
 if __name__ == "__main__":
